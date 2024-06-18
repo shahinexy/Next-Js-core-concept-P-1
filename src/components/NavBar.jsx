@@ -18,6 +18,10 @@ const NavBar = () => {
         {
             name: 'Contact',
             path: '/contact'
+        },
+        {
+            name: 'Blogs',
+            path: '/blogs'
         }
     ]
 
