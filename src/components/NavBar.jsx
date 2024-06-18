@@ -28,6 +28,13 @@ const NavBar = () => {
     const handleClick = () =>{
         router.push('/login')
     }
+
+    if(pathName.includes('dashboard'))
+        return(
+            <div className='bg-green-500 py-3'>
+                Dashboard
+            </div>
+        )
     return (
         <div className='bg-sky-950 py-3 text-white text-lg'>
             <ul className='flex gap-4 justify-center'>
